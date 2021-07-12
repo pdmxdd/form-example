@@ -29,6 +29,7 @@ public class BookController {
         newBookForm += "<label>Author: <input type='text' name='author'></label><br />";
         newBookForm += "<label>ISBN: <input type='text' name='isbn'></label><br />";
         newBookForm += "<input type='submit'>";
+        newBookForm += "</form>";
         return newBookForm;
     }
 
